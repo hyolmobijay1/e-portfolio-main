@@ -1,0 +1,98 @@
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+    /* Navigation button */
+    .nav-button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    /* Hero image */
+    .hero-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* Centering the hero section */
+    .hero-section {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 520px) {
+   .navbar{
+    font-size: 1rem;
+   }
+   .hero-image {
+    max-width: 500px;
+    position: relative;
+    
+    }
+   .mobile-img{
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    margin-top: 20px;
+   }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .mobile-logo{
+       display: none;
+    }
+    .navbar {
+        font-size: 0.9rem;
+    }
+    .hero-image img{
+        width: 240px;
+        height: 240px;
+        margin-top: 15px;
+    }
+  
+}
+@media screen and (max-width: 450px) {
+    .mobile-logo{
+       display: none;
+    }
+    .navbar {
+        font-size: 1rem;
+        justify-content: center;
+    }
+    .hero-image img{
+        width: 240px;
+        height: 240px;
+        margin-top: 15px;
+    }
+    .cta-button {
+        font-size: 1rem;
+        padding: 8px 12px;
+        width: 160px;
+    }
+  
+}
+@media screen and (max-width: 395px) {
+    .mobile-logo{
+       display: none;
+    }
+    .navbar {
+        font-size: .9rem;
+        justify-content: center;
+    }
+    .hero-image img{
+        width: 240px;
+        height: 240px;
+        margin-top: 15px;
+    }
+    .cta-button {
+        font-size: 1rem;
+        padding: 8px 12px;
+        width: 160px;
+    }
+  
+}

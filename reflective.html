@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reflective Writing</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      h1 {
+        color: #ff3d6e;
+        text-align: center;
+      }
+      h2 {
+        color: #ff3d6e;
+        text-align: center;
+      }
+      p {
+        font-size: 1.2rem;
+        justify-content: center;
+      }
+      footer {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .angry-grid {
+        display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin: 20px auto;
+            padding: 10px;
+
+      }
+      #item{
+        border: 2px rgb(255, 255, 255) solid;
+        margin: 2px;
+        padding: 10px;
+        background: #1c1818;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+
+      @media (max-width: 500px) {
+    body {
+        margin: 10px;
+        font-size: 0.9rem;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    .angry-grid {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    #item {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links a {
+        margin: 5px 0;
+        font-size: 0.9rem;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+    
+    .logo {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+       
+    }
+}
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo mobile-logo">NS</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Journals</a>
+            <div class="dropdown-content">
+                <a href="week1.html">Week 1</a>
+                <a href="week2.html">Week 2</a>
+                <a href="week3.html">Week 3</a>
+                <a href="week4.html">Week 4</a>
+                <a href="week5.html">Week 5</a>
+                <a href="week6.html">Week 6</a>
+                <a href="week7.html">Week 7</a>
+                <a href="week8.html">Week 8</a>
+                <a href="week9.html">Week 9</a>
+                <a href="week10.html">Week 10</a>
+            </div>
+            </div>
+        <a href="about.html">About</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <h1>Reflective Writing</h1>
+    <div class="angry-grid">
+      <div id="item">
+        <h2><span> Week 1</span></h2>
+        <p>
+          I started to investigate the structure of HTML, designing headings,
+          paragraphs and lists to organize the content. It was great to get to
+          place the skeleton of a web page together. I moved on to Module 2
+          where I learned colour, fonts and margins in CSS, it was exciting to
+          style the structure and I learned about the impact of visual
+          components on user experience.
+        </p>
+      </div>
+      <div id="item">
+        <h2><span> Week 2</span></h2>
+        <p>
+          This week, I was learning more about HTML forms and navigation,
+          placing links and menus were great for usability. I used CSS
+          selectors, IDs and classes in Module 2 to style specific areas of the
+          layout. I also started using external stylesheets to help manage my
+          code.
+        </p>
+      </div>
+
+      <div id="item">
+        <h2><span> Week 3</span></h2>
+        <p>
+          I worked on creating multiple HTML pages (index, contact, CV) and
+          linking them with a consistent navigation. This was beneficial for
+          understanding a multi-page site structure. In Module 2 I practiced
+          using media queries for responsive design and learned how websites
+          rescale on different screens. Mobile-first design principles were a
+          major takeaway.
+        </p>
+      </div>
+
+      <div id="item">
+        <h2>Week 4</h2>
+        <p>
+          I improved my semantic HTML by using appropriate tags for , , and .
+          This was beneficial because my pages were structured and accessible. I
+          have a good understanding of how to use images while being able to
+          control the size and placement of them in CSS. Module 2 concentrated
+          on layout methods like Flexbox which I much preferred as it allowed me
+          to position component easier.
+        </p>
+      </div>
+      <div id="item">
+        <h2><span> Week 5</span></h2>
+        <p>
+          I used the tags to create a contact form this week. Seeing how forms
+          work was satisfying. I learned the fundamentals of JavaScript in the
+          second module. I felt more in control of the website after practicing
+          writing basic scripts to change content.
+        </p>
+      </div>
+      <div id="item">
+        <h2><span> Week 6</span></h2>
+        <p>
+          I improved my CV page by adding tables and lists to present
+          information in a clearer way. I've also started using JavaScript,
+          where I played with event listeners so I could create buttons and have
+          them run functions. It was thrilling to now have pages respond to some
+          kind of user action once the button was clicked. This also got me to
+          think about how to bring all three elements (HTML, CSS, and
+          JavaScript) together.
+        </p>
+      </div>
+      <div id="item">
+        <h2><span> Week 7</span></h2>
+        <p>
+          I've added an image and a video to the media section, and learnt about
+          size, controls, and formats. This really helped create a more dynamic
+          view of my experience. Module 2 also introduced some basic DOM
+          manipulation. I was able to change content with JavaScript.
+          Manipulating interactive elements and seeing how to alter them in
+          real-time was cool.
+        </p>
+      </div>
+      <div id="item">
+        <h2><span> Week 8</span></h2>
+        <p>
+          I put the finishing touches on the look and feel of my site. I was
+          able to ensure my fonts, colours, and spacing were consistent across
+          all folders and pages. In Module 2, I also experimented with audio
+          elements and was able to use autoplay and looping controls. It was an
+          interesting experience to think about how engaging I could make my
+          site with multimedia, while still considering it from an informative
+          and functional perspective.
+        </p>
+      </div>
+      <div id="item">
+        <h2><span> Week 9</span></h2>
+        <p>
+          I also tested my site and layout bugs across devices and browsers to
+          fix with responsive CSS, which also made me aware of the real-life
+          needs for testing. I learned in module 2 about optimization;
+          compressing images, and cleaning up code to enhance performance and
+          speed.
+        </p>
+      </div>
+      <div id="item">
+        <h2><span> Week 10</span></h2>
+        <p>
+          In my final week, I focused on accessibility by adding alt text and
+          appropriate labels for widgets and forms. I added some finishing
+          touches like transitions and animations. In the second module, I had
+          an overview of the whole project, documented it, and prepared to
+          present it. I am proud of what I built.
+        </p>
+      </div>
+    </div>
+    <footer>
+        <div class="copyright">
+            © 2025 Nabin Sharma. All rights reserved.
+        </div>
+        <div class="social-icons">
+            <a href="https://facebook.com" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <circle cx="12" cy="12" r="4"></circle>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+            </a>
+        </div>
+    </footer>
+  </body>
+</html>
